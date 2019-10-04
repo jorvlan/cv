@@ -11,6 +11,6 @@ The main files are:
 - `positions.csv`: A csv with columns encoding the various fields needed for a position entry in the CV.
 - `css/`: Directory containing the custom CSS files used to tweak the default 'resume' format from pagedown. 
 
-The source code was derived from Nick Strayer (www.github.com/nickstrayer/cv)
+The source code was derived from Nick Strayer (www.github.com/nstrayer/cv)
 
 
