@@ -57,7 +57,7 @@ Aside
 if(PDF_EXPORT){
   cat("View this CV online with links at _jordyvanlangen.netlify.com_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/jordyvanlangen/jordyvanlangen_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/jorvlan/jordyvanlangen_cv.pdf)")
 }
 ```
 
@@ -66,8 +66,8 @@ Contact {#contact}
 
 
 - <i class="fa fa-envelope"></i> jordyvanlangen@gmail.com
-- <i class="fa fa-twitter"></i> JordyvanLangen
-- <i class="fa fa-github"></i> github.com/jordyvanlangen
+- <i class="fa fa-twitter"></i> [JordyvanLangen](http://twitter.com/jordyvanlangen)
+- <i class="fa fa-github"></i> [jorvlan](http://github.com/jorvlan)
 - <i class="fa fa-link"></i> [jordyvanlangen.netlify.com](http://jordyvanlangen.netlify.com/)
 - <i class="fa fa-phone"></i> +31 (0) 6 44-33-77-08
 
@@ -79,23 +79,24 @@ Skills {#skills}
 
 Experienced in
 
-
-- R 
-- MATLAB
-- SPSS
-- MS office
+- [R](http://cran.r-project.org/) 
+- [MATLAB](http://www.mathworks.com/)
+- [SPSS](http://www.ibm.com/nl-en/analytics/spss-statistics-software)
+- [MS office](http://www.office.com/)
 
 Experience with
 
-- Python
+- [Python](http://www.python.org/)
+- [FieldTrip](http://fieldtriptoolbox.org/)
+
 
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+Made with the R package [**pagedown**](http://github.com/rstudio/pagedown). 
 
-The source code is available at [github.com/jordyvanlangen/cv](https://github.com/jordyvanlangen/cv).
+The source code is available on my [GitHub](http://github.com/jorvlan/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -109,7 +110,7 @@ Jordy van Langen {#title}
 
 
 ```{r}
-intro_text <- "I am a recent graduate from the research master [‘Behavioural Science’](https://www.ru.nl/opleidingen/master/behavioural-science-research/) at Radboud University Nijmegen. I performed my masters internship at the [Systems Neurology](https://www.ru.nl/donders/research/theme-2-perception-action-control/research-groups-theme-2/systems-neurology/) group in the Donders Centre for Cognitive Neuroimaging which is part of the [Donders Institute for Brain, Cognition and Behaviour](https://www.ru.nl/donders). In my master thesis research, I investigated the influence of different types of stress on Parkinon’s tremor and related noradrenergic activity. From November 2019, I will be working as a research assisstant at the [Brain and Mind Centre](https://sydney.edu.au/brain-mind/), University of Sydney, in Australia."
+intro_text <- "I am a recent graduate from the research master [‘Behavioural Science’](http://www.ru.nl/opleidingen/master/behavioural-science-research/) at Radboud University Nijmegen. I performed my masters internship at the [Systems Neurology](http://www.ru.nl/donders/research/theme-2-perception-action-control/research-groups-theme-2/systems-neurology/) group in the Donders Centre for Cognitive Neuroimaging which is part of the Donders Institute for Brain, Cognition and Behaviour. In my master thesis research, I investigated the influence of different types of stress on Parkinon’s tremor and related noradrenergic activity. From November 2019, I will be working as a research assisstant at the [Brain and Mind Centre](http://sydney.edu.au/brain-mind/), University of Sydney, in Australia."
 
 cat(sanitize_links(intro_text))
 ```
